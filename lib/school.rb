@@ -1,15 +1,12 @@
 # code here!
 class School
 
-  ROSTER = {}
+  def initialize(name)
+    @name = name
+    roster = {}
 
-  def initialize(school)
-    @school = school
-  end
-
-  def roster=(roster)
-    @rosters = roster
-    ROSTER << roster
+  def roster
+    @rosters
   end
 
 
