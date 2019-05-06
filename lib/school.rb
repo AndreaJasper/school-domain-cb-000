@@ -1,12 +1,12 @@
 # code here!
 class School
 
-  def initialize(school)
-    @school = school
+  def initialize(name)
+    @name = name
   end
 
-  def school
-    @school
+  def name
+    @name
   end
 
 end
