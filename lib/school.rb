@@ -12,7 +12,7 @@ class School
   end
 
   def roster
-    self.roster ||= {}
+    
   end
 
 end
