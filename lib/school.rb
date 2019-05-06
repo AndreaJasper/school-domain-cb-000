@@ -8,5 +8,5 @@ class School
     ROSTER << roster
   end
 
-  
+
 end
