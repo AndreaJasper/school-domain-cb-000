@@ -11,7 +11,5 @@ class School
     @school
   end
 
-  def add_student(name, grade)
-
 
 end
