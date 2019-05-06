@@ -11,8 +11,12 @@ class School
     @name
   end
 
-  def roster
+  def roster=(roster)
+    @roster = roster
+  end
 
+  def roster
+    @roster
   end
 
 end
