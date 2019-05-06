@@ -13,11 +13,19 @@ class School
       @roster[grade] << name
     else
       @roster[grade] = []
-      @roster[grade] <<name
+      @roster[grade] << name
     end
   end
 
   def grade(grade)
     @grade[grade]
+  end
+
+  def sort
+    new_hash = {}
+    @roster.each do |key, value|
+      new_hash[key] = value.sort
+    end
+    new_hash
   end
 end
