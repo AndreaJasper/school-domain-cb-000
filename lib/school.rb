@@ -9,4 +9,8 @@ class School
     @name
   end
 
+  def roster
+    self.roster ||= {}
+  end
+
 end
