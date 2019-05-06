@@ -1,7 +1,7 @@
 # code here!
 class School
 
-  ROSTER = {}
+  ROSTER = []
 
   def initialize(school)
     @school = school
@@ -11,5 +11,7 @@ class School
     @school
   end
 
+  def add_student(name, grade)
 
+  end
 end
